@@ -5,7 +5,7 @@
 #pragma warning(disable:4996)
 
 
-#define MAX_SIZE 10 // 배열의 크기를 최대 10으로 설정
+#define MAX_SIZE 10
 #define SWAP(x, y, t) ( (t)=(x), (x)=(y), (y)=(t) ) // 임시 변수 t를 사용하여 두 변수 x, y를 교환
 
 int list[MAX_SIZE]; // 10의 크기를 가지는 배열 생성
